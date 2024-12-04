@@ -1,0 +1,105 @@
+body {
+    background-color: #A8A8A8;
+}
+
+#profile-wrapper {
+    text-align: center;
+    padding: 15px; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; 
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+h1 {
+    margin: 10px 0; 
+    font-size: 24px; 
+}
+
+p {
+    margin: 5px 0 15px 0; 
+    font-size: 14px;
+    color: #555; 
+}
+
+/* for the skill part css! */
+.skills-section {
+    margin-bottom: 10px; /* Reduce space between sections */
+}
+
+.skills-section h5 {
+    font-size: 1.1rem;
+    margin-bottom: 5px; /* Reduce space below headers */
+    color: #333;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;  /* Reduce space between items horizontally */
+    margin-bottom: 5px;  /* Reduce space between items vertically */
+    white-space: nowrap; /* Prevent line breaks within each skill */
+}
+
+.skills-list li img {
+    width: 24px;   /* Icon size remains the same */
+    height: 24px;
+    margin-right: 5px; /* Reduce space between icon and text */
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h4 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+
+
+.card {
+    min-height: 100%;
+}
+
